@@ -3,7 +3,7 @@ import "../style/Header.css"
 
 export const Header = () => {
     return (
-        <header>
+        <header className="font-serif">
             <div className="logo">The Zoo</div>
             <Nav/>
         </header>

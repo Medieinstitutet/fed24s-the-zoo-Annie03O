@@ -53,7 +53,7 @@ export const Zoo = () => {
     }
     
     return (
-        <div className="zoo">
+        <div className="zoo font-serif">
             {error !== "" ? (
              <div>{error}</div>   
             ) : (
@@ -73,7 +73,7 @@ export const Zoo = () => {
                                 "Hungrig" 
                                 :"Mätt"}
                             </p>
-                            <button
+                            <button className="rounded-3xl"
                                 disabled={a.isFed}
                                 onClick={() => {
                                     setZoo(zoo =>
