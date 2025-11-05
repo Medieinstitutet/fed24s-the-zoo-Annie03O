@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller i stort sett alla krav för betyget G. Det använder react-router-dom för routing, behandlar djurdata och bilder på ett korrekt sätt, och möjliggör matningsfunktionaliteten för djuren. Grundläggande CSS-tekniker och Tailwind används för styling.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Samtliga VG-krav är uppfyllda med välstrukturerad kod och effektiv felhantering.
 
 💡 **Förbättringsförslag:**  
-För att uppnå ett högre betyg (VG) skulle studenten behöva implementera context istället för props för komponentkommunikation, använda reducers för hantering av djur-staten och inkludera subtila animeringar vid användarinteraktioner och sidladdningar. Det bör också övervägas att använda custom hooks eller tjänster för att hämta djurdata, samt justera djurens faktiska hälsostatuspresentation på översiktssidan baserat på aktuella regler.
+Det vore fördelaktigt att illustrera mer detaljerat hur context används praktiskt i projektet för att ersätta props. Vidare kan implementationen av custom hooks undersökas för städad och återanvändbar kod.
