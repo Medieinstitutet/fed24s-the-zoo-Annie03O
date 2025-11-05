@@ -71,11 +71,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller grundkraven för betyg G. Den använder en router för att visa olika sidor, djuröversiktens status presenteras korrekt enligt tiden djuren matats, felhantering för trasiga bilder hanteras, och layouten är välstrukturerad. Dock finns det förbättringsåtgärder för att säkerställa kodens kvalitet och uppfyllelse av VG-kraven.
+📌 **Motivering:** Projektet uppfyller i stort sett alla krav för betyget G. Det använder react-router-dom för routing, behandlar djurdata och bilder på ett korrekt sätt, och möjliggör matningsfunktionaliteten för djuren. Grundläggande CSS-tekniker och Tailwind används för styling.
 
 💡 **Förbättringsförslag:**  
-1. Använd 'context API' bättre för att hantera applikationens globala tillstånd istället för att bara använda 'createContext' utan att ge det värde och hantering. 
-2. Reducen använd inte i nuvarande setup, integrera den så att den hanterar tillståndshanteringen av djuren mer effektivt.
-3. Custom hooks kan användas för att hämta data istället för att hantera det direkt i komponenterna (Zoo komponenten kan dra nytta av detta). Detta skulle också främja en bättre separation av concerns. 
-4. Säkra att animeringar finns vid relevanta interaktioner för att uppfylla kraven för VG, särskilt vid knapptryck och sidladdningar.
-5. Lägg till tidshantering i en state eller en custom hook kompoment och inte direkt i render components för bättre prestanda när tidsspårning görs.
+För att uppnå ett högre betyg (VG) skulle studenten behöva implementera context istället för props för komponentkommunikation, använda reducers för hantering av djur-staten och inkludera subtila animeringar vid användarinteraktioner och sidladdningar. Det bör också övervägas att använda custom hooks eller tjänster för att hämta djurdata, samt justera djurens faktiska hälsostatuspresentation på översiktssidan baserat på aktuella regler.
