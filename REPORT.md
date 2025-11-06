@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg G och VG. Användning av router, hantering av bildfel, matningfunktionalitet och användningen av Thailwind.CSS är korrekt implementerat.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G, inklusive routing och korrekt användning av layout, child-routes och error-element【4:4†Router.tsx.txt】. Djur-översiktssidan är funktionell och användarna kan klicka på ett djur för att se detaljer【4:1†Zoo.tsx.txt】. Det finns en fungerande mekanism för att mata djuren och tiden sparas korrekt【4:1†Zoo.tsx.txt】. Trasiga bildlänkar hanteras väl【4:1†Zoo.tsx.txt】. Tailwind används för styling utöver vanlig CSS【4:8†index.html】.
 
 💡 **Förbättringsförslag:**  
-Förbättringar kan innefatta fler examinationer av subtila animeringar vid sidladdningar och navigering för att helt uppfylla de VG-specifika kraven.
+För att ytterligare förbättra användarupplevelsen kan fler subtila animationer implementeras på knapptryckningar och vid route-byten【4:16†App.css】. Koden - särskilt i ZooReducer - kan också göras mer lättläst och underhållsvänlig genom att bryta upp logik i mindre funktioner【4:3†ZooReducer.tsx.txt】.
