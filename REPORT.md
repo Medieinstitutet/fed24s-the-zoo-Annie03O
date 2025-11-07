@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-Annie03O
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G, inklusive routing och korrekt användning av layout, child-routes och error-element【4:4†Router.tsx.txt】. Djur-översiktssidan är funktionell och användarna kan klicka på ett djur för att se detaljer【4:1†Zoo.tsx.txt】. Det finns en fungerande mekanism för att mata djuren och tiden sparas korrekt【4:1†Zoo.tsx.txt】. Trasiga bildlänkar hanteras väl【4:1†Zoo.tsx.txt】. Tailwind används för styling utöver vanlig CSS【4:8†index.html】.
+📌 **Motivering:** Koden uppfyller alla kriterier för både G och VG betygen, är strukturerad väl med korrekt felhantering och flera avancerade tekniker såsom reducer och context.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra användarupplevelsen kan fler subtila animationer implementeras på knapptryckningar och vid route-byten【4:16†App.css】. Koden - särskilt i ZooReducer - kan också göras mer lättläst och underhållsvänlig genom att bryta upp logik i mindre funktioner【4:3†ZooReducer.tsx.txt】.
+Överväg att utöka dokumentationen för att bättre förklara komponentarkitekturen och dataflödet i applikationen. Detta hjälper till att underlätta för framtida underhåll och potentiella utvecklare som tar över projektet.
