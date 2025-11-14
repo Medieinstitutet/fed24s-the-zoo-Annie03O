@@ -69,7 +69,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg G och de flesta för VG. Koden är välstrukturerad med logisk filorganisation och återanvändbara komponenter. Funktionaliteten är korrekt implementerad, och projektet följer best practices för det valda ramverket. De områden som kan förbättras är inte tillräckligt kritiska för att sänka betyget.
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, följer best practices och har implementerat avancerade funktioner som context och reducers. Användningen av en router, korrekt hantering av bildlänkar och en bra komponentuppdelning visar på en djup förståelse för frontend-utveckling.
 
 💡 **Förbättringsförslag:**  
-Förbättra error handling vid API-anrop för att hantera olika feltyper och förbättra användarupplevelsen. Minska kodupprepning genom att identifiera och extrahera gemensam logik till hjälpfunktioner eller komponenter. Förbättra subtila animeringar för att göra användargränssnittet mer engagerande och dynamiskt.
+Förbättra felhantering genom att ge mer detaljerade och användarvänliga felmeddelanden. Lägg till fler kommentarer för att förklara komplex logik och reducera kodupprepning genom att extrahera gemensam logik till hjälpfunktioner eller egna hooks. Förbättra användargränssnittet med fler visuella ledtrådar och feedback för att förbättra användarupplevelsen.
