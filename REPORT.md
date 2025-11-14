@@ -68,8 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg G, inklusive korrekt användning av router och hantering av djurens matningsstatus. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Dock saknas några av de mer avancerade funktionerna som krävs för VG, såsom användning av context och reducers för state-hantering samt förbättrad användarupplevelse med subtila animeringar.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för betyg G och de flesta för VG. Koden är välstrukturerad med logisk filorganisation och återanvändbara komponenter. Funktionaliteten är korrekt implementerad, och projektet följer best practices för det valda ramverket. De områden som kan förbättras är inte tillräckligt kritiska för att sänka betyget.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör projektet implementera context och reducers för att förbättra state-hanteringen och minska beroendet av props. Lägg till subtila animeringar för att förbättra användarupplevelsen och överväg att använda tjänster eller custom hooks för datainhämtning. Förbättra felhanteringen med mer detaljerade felmeddelanden och specifik hantering av olika feltyper.
+Förbättra error handling vid API-anrop för att hantera olika feltyper och förbättra användarupplevelsen. Minska kodupprepning genom att identifiera och extrahera gemensam logik till hjälpfunktioner eller komponenter. Förbättra subtila animeringar för att göra användargränssnittet mer engagerande och dynamiskt.
