@@ -66,10 +66,10 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Annie03O\src\services\zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-Annie03O/src/services/zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, följer best practices och har implementerat avancerade funktioner som context och reducers. Användningen av en router, korrekt hantering av bildlänkar och en bra komponentuppdelning visar på en djup förståelse för frontend-utveckling.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller de grundläggande kraven för betyg G. Projektet använder en router för att visa olika sidor och har en översiktssida där djuren kan klickas på för att se mer detaljer. Matningsfunktionen är implementerad och hanterar tider korrekt enligt specifikationen. Trasiga bildlänkar hanteras också på ett bra sätt. Styling är genomförd med en annan teknik än ren CSS, vilket uppfyller kraven. För att nå VG-nivå krävs implementering av mer avancerade tekniker såsom datahämtning via tjänster eller en custom hook, användning av context för komponentkommunikation, och hantering av djurens status med reducers istället för state.
 
 💡 **Förbättringsförslag:**  
-Förbättra felhantering genom att ge mer detaljerade och användarvänliga felmeddelanden. Lägg till fler kommentarer för att förklara komplex logik och reducera kodupprepning genom att extrahera gemensam logik till hjälpfunktioner eller egna hooks. Förbättra användargränssnittet med fler visuella ledtrådar och feedback för att förbättra användarupplevelsen.
+För att nå VG-nivå bör projektet implementera datahämtning via tjänster eller en custom hook, använda context API för att hantera global state och minska prop drilling, samt hantera djurens status med reducers. Lägg till subtila animeringar för att förbättra användarupplevelsen. Förbättra kodkvaliteten genom att minska upprepningar och säkerställa att alla funktioner är välkommenterade. Error handling kan också förbättras för att täcka fler scenarier och säkerställa robusthet.
