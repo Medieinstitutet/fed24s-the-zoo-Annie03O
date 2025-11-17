@@ -69,7 +69,13 @@ Ha roligt, skratta och lär er massor!
 - /app/repos/fed24s-the-zoo-Annie03O/src/services/zooServices.ts - no-console - Unexpected console statement.,no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller de grundläggande kraven för betyg G. Projektet använder en router för att visa olika sidor och har en översiktssida där djuren kan klickas på för att se mer detaljer. Matningsfunktionen är implementerad och hanterar tider korrekt enligt specifikationen. Trasiga bildlänkar hanteras också på ett bra sätt. Styling är genomförd med en annan teknik än ren CSS, vilket uppfyller kraven. För att nå VG-nivå krävs implementering av mer avancerade tekniker såsom datahämtning via tjänster eller en custom hook, användning av context för komponentkommunikation, och hantering av djurens status med reducers istället för state.
+📌 **Motivering:** Koden uppfyller de grundläggande kraven för betyget G. Projektet använder en router för att visa olika sidor, hanterar trasiga bildlänkar korrekt, och använder Tailwind CSS för styling. En översiktssida för djuren finns där det går att klicka på ett djur, och det går att mata djuren och spara tiden när de matades. Felhantering är implementerad i API-anropen. För att uppnå VG saknas dock implementering av Context API, reducers, djur-detaljsida med mer information, subtila animeringar, och förbättrad kodläsbarhet.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör projektet implementera datahämtning via tjänster eller en custom hook, använda context API för att hantera global state och minska prop drilling, samt hantera djurens status med reducers. Lägg till subtila animeringar för att förbättra användarupplevelsen. Förbättra kodkvaliteten genom att minska upprepningar och säkerställa att alla funktioner är välkommenterade. Error handling kan också förbättras för att täcka fler scenarier och säkerställa robusthet.
+För att uppnå VG behöver följande förbättringar göras: 
+1. Använda Context API istället för props för att kommunicera mellan komponenter. 
+2. Implementera reducers istället för state för hanteringen av djur. 
+3. Implementera en djur-detaljsida där användaren kan mata djuret och se mer information. 
+4. Implementera subtila animeringar vid klick på knappar eller route-förändringar. 
+5. Förbättra kodens läsbarhet genom att lägga till kommentarer där det behövs. 
+6. Säkerställa att alla krav för VG är uppfyllda, inklusive att matningen nollställs under rätt villkor och att djurens status presenteras diskret på översiktssidan.
